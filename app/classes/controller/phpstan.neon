@@ -3,4 +3,6 @@ parameters:
 
     scanDirectories:
       - ../../../core/classes
-   
+
+    bootstrapFiles:
+      - ../../../core/classes/autoloader.php
