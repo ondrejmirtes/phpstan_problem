@@ -1,0 +1,26 @@
+<?php
+ 
+return array(
+    'required'      => '「:label」をご入力ください',
+    'required_choice'      => '「:label」を選択ください',
+    'min_length'    => '「:label」は「:param:1」 文字以上で入力して下さい',
+    'max_length'    => '「:label」は「:param:1」 文字以内で入力して下さい',
+    'exact_length'  => '「:label」は「:param:1」 文字で入力して下さい',
+    'match_value'   => '「:label」は使用できない文字が含まれています使用可能な文字 [:param:1] ',
+    'match_pattern' => '「:label」は「:param:2」で入力して下さい',
+    'match_field'   => '「:label」が一致していません',
+    'valid_date'   => '「:label」は 日付の形式が不正です',
+    'valid_email'   => '「:label」の形式が正しくありません',
+    'valid_emails'  => '「:label」に有効でないメールアドレスが含まれています',
+    'valid_url'     => '「:label」は有効なURLではありません',
+    'valid_ip'      => '「:label」は有効なIPアドレスではありません',
+    'numeric_min'   => '「:label」には「:param:1」 より大きい数値を入力して下さい',
+    'numeric_max'   => '「:label」には「:param:1」 より小さい数値を入力して下さい',
+    'valid_string'  => '「:label」は半角数字で入力してください',
+    'alphanum'      => '「:label」は半角英数記号で入力してください',
+    'hiragana'      => '「:label」は全角ひらがなで入力してください',
+    'katakana'      => '「:label」は全角カナで入力してください',
+    'check_birthday'      => '「:label」が正しくありません',
+    'birthday_required'      => '「:label」は必須入力です',
+    'match_collection'      => '「:label」が有効な形式ではありません',
+);

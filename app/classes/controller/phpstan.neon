@@ -1,0 +1,11 @@
+parameters:
+    level: 7
+    scanFiles:
+      - %rootDir%/../../../app/classes/controller/base.php
+      - %rootDir%/../../../core/classes/controller/template.php
+      - %rootDir%/../../../core/classes/controller.php
+    
+    scanDirectories:
+      - %rootDir%/../../../app/classes/controller
+      - %rootDir%/../../../core/classes/
+   
